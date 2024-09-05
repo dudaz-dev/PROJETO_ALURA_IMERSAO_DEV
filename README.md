@@ -31,4 +31,4 @@ O **Adote um Amigo** foi desenvolvido com o propósito de contribuir para a caus
 
 ## 🏆 Competição
 
-Este projeto foi desenvolvido com ❤️ por **Maria Eduarda** com o objetivo de conquistar o primeiro lugar em nessa competição de desenvolvimento.
+Este projeto foi desenvolvido com ❤️ por **Maria Eduarda** com o objetivo de conquistar o primeiro lugar nessa competição de desenvolvimento.

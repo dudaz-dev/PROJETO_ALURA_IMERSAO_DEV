@@ -27,8 +27,11 @@
 
 O **Adote um Amigo** foi desenvolvido com o propósito de contribuir para a causa da adoção de animais, utilizando tecnologia para unir pessoas e pets em busca de um lar amoroso. Este projeto segue as melhores práticas de desenvolvimento, com base na Imersão Dev da Alura e diretrizes do Google (Gemini), visando oferecer uma plataforma intuitiva e eficaz.
 
----
-
 ## 🏆 Competição
 
 Este projeto foi desenvolvido com ❤️ por **Maria Eduarda** com o objetivo de conquistar o primeiro lugar nessa competição de desenvolvimento.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+

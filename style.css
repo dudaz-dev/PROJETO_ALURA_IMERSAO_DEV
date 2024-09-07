@@ -1,180 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,900;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* Importa a fonte Chakra Petch do Google Fonts */
-
-
-/* Estiliza o corpo da página */
 body {
-    font-family: "Chakra Petch", sans-serif;
-    /* Define a fonte padrão */
-    background-color: #DDDDDD;
-    /* Cor de fundo da página */
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    background-color: #E3E0D8;
     display: flex;
-    /* Usa Flexbox para layout */
     flex-direction: column;
-    /* Alinha os itens na vertical */
     align-items: center;
-    /* Centraliza os itens horizontalmente */
     justify-content: center;
-    /* Centraliza os itens verticalmente */
-    height: 100vh;
-    /* Preenche a altura total da viewport */
+    gap: 2rem;
     margin: 0;
     padding: 0;
 }
 
-/* Estiliza os títulos h1 */
-.title {
-    color: #222831;
-    /* Cor do texto */
-    text-align: center;
-    /* Alinha o texto ao centro */
-    font-family: "Palanquin Dark", system-ui;
-    font-style: normal;
-    margin: none;
-}
 
-.title h1 {
+.tituloPagina {
+    padding: 40px 0 10px 0;
     font-size: 2.5rem;
-    /* Tamanho da fonte */
+    font-weight: 800;
+    color: #2E3B2F;
+    text-align: center;
     letter-spacing: 0.4rem;
-    /* Espaçamento entre letras */
-    font-weight: 700;
 }
 
-.title h2 {
-    font-size: 1.65rem;
-    letter-spacing: 0.14rem;
-    /* Espaçamento entre letras */
-    font-weight: 400;
-}
-
-/*Estiliza as seções da página */
 section {
     display: flex;
-    /* Usa Flexbox para layout */
     flex-direction: column;
-    /* Alinha os itens na vertical */
     align-items: center;
-    /* Centraliza os itens horizontalmente */
-    margin-bottom: 3rem;
-    /* Espaçamento abaixo de cada seção */
 }
 
-/* Estiliza os inputs dentro das seções */
+.navPesquisa {
+    display: flex;
+    margin: 20px 0;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+
 section input {
-    width: 30rem;
-    /* Largura dos inputs */
+    width: 52.5%;
     border: none;
-    /* Remove a borda padrão */
     padding: 1rem;
-    /* Espaçamento interno */
     border-radius: 1.5rem;
-    /* Borda arredondada */
-    margin-bottom: 1rem;
-    /* Espaçamento abaixo dos inputs */
-    color: #45474B;
-    /* Cor do texto */
-    font-size: 1rem;
-    /* Tamanho da fonte */
+    color: #4F5845;
     box-sizing: border-box;
-    /* Inclui padding e border na largura total */
+    font-size: 1.2rem;
+    background-color: #fff;
 }
 
-/* Estiliza os botões dentro das seções */
 section button {
-    padding: 0.8rem 1.2rem;
-    /* Espaçamento interno do botão */
+    color: white;
+    padding: 1rem;
+    width: 12.5%;
     border: none;
-    /* Remove a borda padrão */
     border-radius: 1.5rem;
-    /* Borda arredondada */
-    background-color: #30475E;
-    /* Cor de fundo do botão */
-    color: #F5F7F8;
-    /* Cor do texto do botão */
-    font-size: 1rem;
-    /* Tamanho da fonte */
+    background-color: #3E533A;
+    font-size: 1.2rem;
     cursor: pointer;
-    /* Muda o cursor para indicar que é clicável */
 }
 
-/* Estiliza a caixa de resultados da pesquisa */
-.resultadosPesquisaPET {
+.resultados-pesquisa {
     width: 60rem;
-    /* Largura máxima da caixa de resultados */
     height: 46vh;
-    /* Altura máxima da caixa de resultados */
     overflow-y: auto;
-    /* Adiciona rolagem vertical se necessário */
     margin-top: 1rem;
-    /* Espaçamento acima da caixa de resultados */
     padding: 1rem;
-    /* Espaçamento interno */
     border-radius: 0.6rem;
-    /* Borda arredondada */
 }
 
-/* Estiliza cada item de resultado */
+.introducao {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.introducaoTexto {
+    width: 65%;
+    color: #2E3B2F;
+    background-color: #Fff;
+    padding: 20px;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.introducaoTexto a {
+    color: #2E3B2F;
+}
+
+
 .item-resultado {
-    background: #FFFFFF;
-    /* Cor de fundo dos itens */
+    background: #F2F1ED;
     border-radius: 0.6rem;
-    /* Borda arredondada */
     padding: 1rem;
-    /* Espaçamento interno */
     margin-bottom: 1rem;
-    /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Sombra leve */
 }
 
-/* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
     font-size: 1.5rem;
-    /* Tamanho da fonte */
-    color: #222831;
-    /* Cor do texto */
+    color: #2E3B2F;
 }
 
-/* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none;
-    /* Remove o sublinhado padrão dos links */
-    color: #30475E;
-    /* Cor do texto dos links */
+    color: #2E3B2F;
 }
 
-/* Estiliza os links quando são passados o mouse sobre */
 .item-resultado a:hover {
     text-decoration: underline;
-    /* Adiciona sublinhado ao passar o mouse */
+    color: #000000;
 }
 
-/* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-    color: #45474B;
-    /* Cor do texto */
+    color: #4F5845;
     margin: 0.5rem 0;
-    /* Margem acima e abaixo */
 }
 
-/* Estiliza o rodapé da página */
 footer {
-    background-color: #F5F7F8;
-    /* Cor de fundo do rodapé */
-    color: #45474B;
-    /* Cor do texto */
+    background-color: #EDEBE6;
+    color: #4F5845;
     text-align: center;
-    /* Alinha o texto ao centro */
-    padding: 0;
-    /* Espaçamento interno */
+    padding: 10px 0;
     width: 100%;
-    /* Largura total da página */
-    position: absolute;
-    /* Posiciona o rodapé */
-    bottom: 0;
-    /* Alinha ao fundo da página */
     font-size: 1rem;
-    /* Tamanho da fonte */
+    bottom: 0;
+    left: 0;
 }

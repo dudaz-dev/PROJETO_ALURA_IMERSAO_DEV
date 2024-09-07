@@ -52,7 +52,7 @@ section input {
 section button {
     color: white;
     padding: 1rem;
-    width: 12.5%;
+    width: 15rem;
     border: none;
     border-radius: 1.5rem;
     background-color: #3E533A;
@@ -61,7 +61,7 @@ section button {
 }
 
 .resultados-pesquisa {
-    width: 65%;
+    width: 70rem;
     height: 46vh;
     overflow-y: auto;
     margin-top: 1rem;
@@ -71,8 +71,7 @@ section button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 
     background-color: #Fff;
     padding: 20px;
@@ -80,18 +79,19 @@ section button {
 }
 
 .introducao {
-    text-align: justify;
+    display: flex;
     line-height: 1.5;
 }
 
 .introducaoTexto {
-    width: 65%;
+    width: 66%;
     color: #2E3B2F;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
+    justify-content: center;
 
     background-color: #Fff;
     padding: 20px;

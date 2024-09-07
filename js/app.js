@@ -1,16 +1,18 @@
 function pesquisar() {
+    // Ocultar a introdução e mostrar os resultados
+    document.getElementById('introducao-texto').style.display = 'none';
+    document.getElementById('resultados-pesquisa').style.display = 'block';
+    document.getElementById('btn-voltar').style.display = 'inline-block';
+
     // Obtém a seção HTML onde os resultados serão exibidos
     let section = document.getElementById("resultados-pesquisa");
+    let campoPesquisa = document.getElementById("campo-pesquisa").value.toLowerCase();
 
-    let campoPesquisa = document.getElementById("campo-pesquisa").value
-
-    // se campoPesquisa for uma string sem nada
+    // se campoPesquisa for vazio
     if (!campoPesquisa) {
-        section.innerHTML = "<p>Resultado não encontrado, você precisa digitar alto relacionado a cão ou gato para acessar os animais para adoção</p>"
-        return
+        section.innerHTML = "<p>Por favor, digite gato ou cachorro para ver os animais disponíveis para adoção.</p>";
+        return;
     }
-
-    campoPesquisa = campoPesquisa.toLowerCase()
 
     // Inicializa uma string vazia para armazenar os resultados
     let resultados = "";
@@ -22,36 +24,42 @@ function pesquisar() {
 
     // Itera sobre cada dado da lista de dados
     for (let dado of dados) {
-        nome = dado.nome.toLowerCase()
-        especie = dado.especie.toLowerCase()
-        idade = dado.idade.toLowerCase()
-        descricao = dado.descricao.toLowerCase()
-        tags = dado.tags.toLowerCase()
-        // se titulo includes campoPesquisa
-        if (nome.includes(campoPesquisa) || especie.includes(campoPesquisa) || especie.idade(campoPesquisa) || descricao.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
+        nome = dado.nome.toLowerCase();
+        especie = dado.especie.toLowerCase();
+        idade = dado.idade.toLowerCase();
+        descricao = dado.descricao.toLowerCase();
+        tags = dado.tags.toLowerCase();
+
+        // Se o nome, espécie, idade, descrição ou tags incluem o termo pesquisado
+        if (nome.includes(campoPesquisa) || especie.includes(campoPesquisa) || idade.includes(campoPesquisa) || descricao.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
             // cria um novo elemento
             resultados += `
-                        
             <div class="item-resultado">
                 <img src="${dado.imagemUrl}" alt="${dado.nome}">
                 <div class="alinhar-texto-cartao">
-                    <h2>
-                        <a href="${dado.linkAdocao}" target="_blank">${dado.nome}</a>
-                    </h2>
+                    <h2><a href="${dado.linkAdocao}" target="_blank">${dado.nome}</a></h2>
                     <p><strong>Espécie:</strong> ${dado.especie}</p>
                     <p><strong>Idade:</strong> ${dado.idade}</p>
                     <p>${dado.descricao}</p>
                     <a href="${dado.linkAdocao}" target="_blank">Adote ${dado.nome}</a>
                 </div>
             </div>
-        `;
+            `;
         }
     }
 
+    // Se não houver resultados, exibe uma mensagem
     if (!resultados) {
-        resultados = "<p>Nada foi encontrado</p>"
+        resultados = "<p>Nenhum animal encontrado. Tente buscar por gato ou cachorro.</p>";
     }
 
     // Atribui os resultados gerados à seção HTML
     section.innerHTML = resultados;
+}
+
+function voltarIntroducao() {
+    // Exibir a introdução novamente e ocultar os resultados
+    document.getElementById('introducao-texto').style.display = 'flex';
+    document.getElementById('resultados-pesquisa').style.display = 'none';
+    document.getElementById('btn-voltar').style.display = 'none';
 }

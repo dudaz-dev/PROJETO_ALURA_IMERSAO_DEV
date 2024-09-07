@@ -17,8 +17,10 @@
         <section class="navPesquisa">
             <input type="text" placeholder="Digite gato ou cachorro para ver os resultados" id="campo-pesquisa">
             <button onclick="pesquisar()">Pesquisar</button>
+            <button id="btn-voltar" onclick="voltarIntroducao()" style="display:none;">Home Page</button>
         </section>
 
+        <!-- Seção de introdução -->
         <section class="introducao" id="introducao-texto">
             <div class="introducaoTexto">
                 <p>
@@ -27,42 +29,24 @@
                     para você, seja um gatinho ou cachorrinho.<br> Minha missão é conectar
                     animais resgatados com novos lares, proporcionando uma nova chance para esses amiguinhos
                     de quatro patas. Use a barra de pesquisa acima para procurar por cães ou gatos disponíveis.
-
-                    Essa idéia partiu após o incentivo de divulgação da prefeitura de São Paulo.</p>
-
+                    Essa ideia partiu após o incentivo de divulgação da prefeitura de São Paulo.
+                </p>
                 <p><a href="https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/272491"
-                        target="_blank" style=" text-decoration: none">
+                        target="_blank" style="text-decoration: none">
                         "A adoção é um dos pilares de atuação da COSAP e, sem dúvida, uma atividade que requer esforço e
                         amplo
-                        envolvimento do poder público com a sociedade civil. Isso porque o alojamento municipal não é um
-                        lar
-                        definitivo, ao contrário, a estadia deve ser de curta permanência. Esses animais precisam de
-                        amor,
-                        de
-                        companhia, de famílias amorosas e responsáveis. <br><br>
-
-                        Ao adotar é dada uma chance de recomeço ao animal escolhido, trazer luz a uma vida que se
-                        apaga a
-                        cada dia.<br>
-
-                        Conheça nossos animais e ajude divulgá-los. Aqui você encontra filhotes e adultos, de diferentes
-                        portes, cores e pelagens, além dos animais especiais."" <br><br>
-
-                        <strong>Clique sobre menção e vai ser direcionado(a) a página principal de
-                            adoção.
-                        </strong><br><br>
-
+                        envolvimento do poder público com a sociedade civil.
+                        <strong>Clique sobre menção e vai ser direcionado(a) à página principal de
+                            adoção.</strong><br><br>
                         <i>Quinta-feira, 8 de Agosto de 2024 | Horário: 10:38 | © COPYRIGHT 2024, Prefeitura Municipal
-                            de
-                            São Paulo.</i>
+                            de São Paulo.</i>
                     </a>
                 </p>
             </div>
         </section>
 
-        <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
-        </section>
-
+        <!-- Seção de resultados de pesquisa -->
+        <section class="resultados-pesquisa" id="resultados-pesquisa" style="display:none;"></section>
     </main>
 
     <footer>

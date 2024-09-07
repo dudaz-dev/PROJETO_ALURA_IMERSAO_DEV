@@ -38,10 +38,9 @@ function pesquisar() {
                 <img src="${dado.imagemUrl}" alt="${dado.nome}">
                 <div class="alinhar-texto-cartao">
                     <h2><a href="${dado.linkAdocao}" target="_blank">${dado.nome}</a></h2>
-                    <p><strong>Espécie:</strong> ${dado.especie}</p>
                     <p><strong>Idade:</strong> ${dado.idade}</p>
                     <p>${dado.descricao}</p>
-                    <a href="${dado.linkAdocao}" target="_blank">Adote ${dado.nome}</a>
+                    <button><a href="${dado.linkAdocao}" target="_blank">Adote ${dado.nome}</a></button>
                 </div>
             </div>
             `;

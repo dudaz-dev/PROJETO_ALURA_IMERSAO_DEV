@@ -4,7 +4,7 @@
 
 Adote um Amigo é uma página desenvolvida com o objetivo de facilitar a adoção de animais abandonados, conectando potenciais adotantes com cães e gatos disponíveis inicialmente em São Paulo (SP). Esta ferramenta serve como um "portfólio" de animais, apresentando fotos e informações detalhadas com o intuito de incentivar a adoção responsável e sensibilizar as pessoas sobre a importância dessa causa.
 
-## Observações
+## Observações Gerais:
 
 De acordo com a política de conduta, verifiquei a viabilidade da página e confirmei que ela está de acordo com a política de privacidade. Todos os créditos referentes às informações sobre adoção são concedidos ao site da **Prefeitura de São Paulo**. 
 
@@ -18,6 +18,12 @@ Destaco um trecho relevante da página de adoção da COSAP:
 
 Quinta-feira, 8 de Agosto de 2024 | Horário: 10:38 | © COPYRIGHT 2024, Prefeitura Municipal de São Paulo.
 
+## Observações Código:
+
+- **Dados**: Os dados dos animais estão no arquivo dados.js.
+- **Design**: O design da página está no arquivo style.css. 
+- **Funcionalidades**: A lógica da pesquisa está no arquivo app.js.
+
 ## 🎯 Funcionalidades e Objetivos
 
 - **Exibição de Animais para Adoção**: A página principal apresenta uma galeria com fotos de cães e gatos disponíveis, incluindo detalhes como nome, idade, descrição e link para adoção.
@@ -30,6 +36,14 @@ Quinta-feira, 8 de Agosto de 2024 | Horário: 10:38 | © COPYRIGHT 2024, Prefeit
 - **CSS**: Para criar o design e layout da plataforma.
 - **JavaScript**: Para garantir a interatividade e funcionalidades da página, como os filtros e redirecionamentos.
 - **Google Gemini**: Foi integrado para facilitar o desenvolvimento, chegando a uma página exelente.
+
+## Como ela funciona?
+- **Digite e pesquise**: Você digita o animal que quer encontrar na caixinha de pesquisa.
+- **Mágica acontece**: A aplicação vasculha um banco de dados gigante (que está no arquivo dados.js) e procura por tudo que tenha a ver com o que você digitou.
+- **Resultados na tela**: Se a aplicação encontrar algo, ela mostra pra você um card com os dados do animal, uma breve descrição e um botão para saber mais.
+
+## Deploy
+- **Confira** esse é o link do meu [DEPLOY](https://projeto-alura-imersao-dev-8dm9.vercel.app/).
 
 ## 🛠️ Responsabilidades
 

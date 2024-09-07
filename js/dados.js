@@ -1,14 +1,276 @@
 let dados = [
+    //gatos
     {
-        //gatos
-        nome: "Felpudo",
-        imagemUrl: "https://via.placeholder.com/150",
+        nome: "Xiaomi",
+        imagemUrl: "/img/Xiaomi .jpg",
+        especie: "gato",
+        idade: "3 anos",
+        descricao: "Titios, sou uma gatinha muito, muito desconfiada, por isso tenham paciência comigo. Pra me conquistar o segredo é interagir aos pouquinhos. Que tal me dar uma chance?",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277114",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Madalena",
+        imagemUrl: "/img/Madalena.jpg",
+        especie: "gato",
+        idade: "2 anos",
+        descricao: "Tios, sou uma pequena muito tímida e preciso me acostumar com humanos diferentes para aceitar carinho. Só preciso de um pouquinho de paciência... Depois você vai ver a recompensa de tanto amor e carinho que vou dar. Que tal me dar uma chance?",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277114",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Elza",
+        imagemUrl: "/img/Elza.jpg",
+        especie: "gato",
+        idade: "1 ano",
+        descricao: "Tios, sou uma gatinha tranquila e adoro uma caminha bem quentinha e macia. Tenho um perfil grudinho, sabe? Adoro ficar perto dos humanos. Me deixa fazer parte da sua família?",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277114",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Alba",
+        imagemUrl: "/img/Alba.jpg",
+        especie: "gato",
+        idade: "2 anos",
+        descricao: "Titios, sou uma gatinha muito medrosa e fujona! Se deixar eu passo o dia dormindo, mas também gosto de brincar. Tenho uma doença chamada FIV, mas isso não atrapalha nadinha meu dia a dia. Me deixa fazer parte da sua família?",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277114",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Lisa",
+        imagemUrl: "/img/Lisa(2).jpg",
         especie: "gato",
         idade: "4 anos",
-        descricao: "Rex é leal e protetor. Excelente para quem busca um companheiro fiel.",
-        linkAdocao: "https://exemplo.com/adote-rex",
-        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo "
+        descricao: "Oi tios, sou uma linda menina tímida. Preciso de interação prévia para me sentir segura. Adoro carinho, mas não curto muito ficar no colo. Que tal me deixar fazer parte da sua família?",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277114",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
     },
+    {
+        nome: "Peppa",
+        imagemUrl: "/img/Peppa.jpg",
+        especie: "gato",
+        idade: "12 anos",
+        descricao: "Tios, sou dócil, carinhosa e adoro colo. Só não gosto muito de outros gatos porque eles costumam ser bagunceiros e agitados e eu prefiro calmaria. Sou FIV positiva e também diabética, preciso fazer uso de insulina todos os dias. Fico pensando se algum dia alguém virá me adotar e sonho muito com isso.",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277114",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Gisele",
+        imagemUrl: "/img/Gisele(3).jpg",
+        especie: "gato",
+        idade: "12 anos",
+        descricao: "Oi titios, sou uma gatinha idosa, que adora carinho e que sonha em passar a última etapa da vida ao lado de alguém que tenha amor para oferecer. Como me acostumei a ser só, preciso ser filha única, pois não gosto de interagir com outros gatos. Me dá a chance, vai?",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277114",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Orelinha",
+        imagemUrl: "/img/Orelinha.jpg",
+        especie: "gato",
+        idade: "6 anos",
+        descricao: "Tios, sou uma gatinha um pouco arisca e não gosto de colo. Sou mais independente, sabem? Mas serei uma boa companhia, tenho só que ter uma família que me entenda e me ame do jeitinho que sou.",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277114",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Nenezinha",
+        imagemUrl: "/img/Nenezinha.jpg",
+        especie: "gato",
+        idade: "4 anos",
+        descricao: "Pessoal, sou dócil e adoro um carinho, mas ainda não aprendi a aceitar colo. Que tal me conquistar e me levar para a sua casa?",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277114",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Angela",
+        imagemUrl: "/img/Angela.jpg",
+        especie: "gato",
+        idade: "5 anos",
+        descricao: "Titios, sou uma linda gatinha um pouco assustada. Por isso, quem me adotar precisa entender e respeitar o meu tempo. Não curto colo e carinho, mas serei uma ótima companhia. Que tal me dar uma chance?",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277114",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Maria",
+        imagemUrl: "/img/Maria.jpg",
+        especie: "gato",
+        idade: "6 anos",
+        descricao: "Oi pessoal, sou uma jovem gatinha muito tímida e um tanto arisca, por esse motivo, ficar no colo não é meu ponto forte. Preciso de uma família paciente que respeite a minha personalidade! Que tal me dar uma chance?",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277114",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Bel",
+        imagemUrl: "/img/Bel.jpeg",
+        especie: "gato",
+        idade: "6 anos",
+        descricao: "Oiê! Eu cheguei aqui muito dodói, mas as tias cuidaram tão bem de mim que hoje estou curada. Gosto de carinho, mas não muito e gosto de colo por pouco tempo. Que tal vir aqui me conhecer? Podemos ser grandes amigos!",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277114",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Miranda",
+        imagemUrl: "/img/Miranda.jpg",
+        especie: "gato",
+        idade: "4 anos",
+        descricao: "Tios, não vejo a hora de ter uma família! Adoro um carinho, mas já vou avisando que colo eu curto só um pouquinho. Sou muito brincalhona, me divirto com minha irmã e adoro a companhia de outros amiguinhos. Quem me adotar precisa tomar muito cuidado com as rotas de fuga pois sou fujona. Aguardo um lar cheio de amor e carinho. Deixa eu ser da sua família?",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277114",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Dakota",
+        imagemUrl: "/img/Dakota_1.jpg",
+        especie: "gato",
+        idade: "4 anos",
+        descricao: "Titios, eu nasci em um parque bem longe daqui aqui e agora estou pronta para ter uma família! Carinho eu até aceito, mas colo e escovação não fazem meu estilo, pois tenho que ser conquistada. Adoro brincar e correr! Aguardo uma família cheio de amor e carinho.",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277114",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Simba",
+        imagemUrl: "/img/Simba.jpg",
+        especie: "gato",
+        idade: "2 anos",
+        descricao: "Titios, sou um gatinho bem carinhoso (mas quando acho que está bom de carinho eu aviso), amoroso e que adora ficar juntinho! Bagunçar é comigo mesmo, pois tenho um jeitinho muito feliz. Tenho uma doença chamada Felv, mas que não me atrapalha para viver! Vem me conhecer e me adotar!",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277115",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Bombom",
+        imagemUrl: "/img/Bombom .jpg ",
+        especie: "gato",
+        idade: "8 anos",
+        descricao: "Tios, sou um gatinho muito carinhoso e que gosta de ficar juntinho. Fico só pensando no dia em que uma linda e especial família irá me adotar, pois assim saberei o que é o amor verdadeiro. Me adota? Observação: quem me adotar receberá o cartão Cuida Bem Idoso, que dá acesso prioritário e vitalício em qualquer uma das unidades dos hospitais veterinários públicos da cidade de São Paulo.",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277115",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Garfield",
+        imagemUrl: "/img/Garfield.jpg",
+        especie: "gato",
+        idade: "5 anos",
+        descricao: "Tios, sou um gatinho muito carinhoso e gosto de colo. Sou muito companheiro e aguardo uma família amorosa, responsável e especial. Que tal ser a sua? Ah, tomo um remedinho pra poder usar o banheiro, mas isso não me atrapalha em nada minha rotina, viu? Me dá uma chance?",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277115",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Branquinho",
+        imagemUrl: "/img/Branquinho(2).jpg",
+        especie: "gato",
+        idade: "6 anos",
+        descricao: "Tios, tenho todas as qualidades que um gatinho pode ter: sou carinhoso, amoroso, dengoso e muito, muito falante! Espero uma família amorosa e responsável. Pode ter certeza que amor pra você não vai faltar! Me adota!",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277115",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Rabi",
+        imagemUrl: "/img/Rabi.jpg",
+        especie: "gato",
+        idade: "6 anos",
+        descricao: "Turminha, sou um menino muito conversador! Aceito colo, carinho, amo uma boa brincadeira e adoro fazer companhia! Acho que você poderia me deixar fazer parte da sua família e desfrutar de todo amor que eu tenho pra dar!",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277115",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Félix",
+        imagemUrl: "/img/Felix.jpg",
+        especie: "gato",
+        idade: "5 anos",
+        descricao: "Oi turma, eu sou o Félix, um gatinho lindo e muito simpático. Adoro brincar, ficar pertinho e ganhar carinho. Aguardo uma família amorosa e responsável. Que tal me dar uma chance?",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277115",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Tertúlio",
+        imagemUrl: "/img/Tertúlio.jpg",
+        especie: "gato",
+        idade: "4 anos",
+        descricao: "Oi, tios. Sou um pequeno que adora brincar e fazer graça. Aguardo uma família amorosa e responsável e espero que possa ser a sua. Que tal?",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277115",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Luke",
+        imagemUrl: "/img/Luke.jpg",
+        especie: "gato",
+        idade: "2 anos",
+        descricao: "Oi tios! Sou um gatinho muito especial e por isso preciso de uma família assim também. Tenho um probleminha que se chama FELV, mas isso não impede que eu esteja sempre alegre e brincando. Que tal me adotar e deixar a sua vida mais feliz?",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277115",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Hugo",
+        imagemUrl: "/img/Hugo.jpg",
+        especie: "gato",
+        idade: "6 anos",
+        descricao: "Oi tios, sou um pequeno bem tímido e gosto de ficar na minha, sabe? Procuro me esconder sempre. Preciso de interação por um período antes de começar uma amizade. Se você tem paciência para me conquistar, por favor, venha me conhecer.",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277115",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Zorro",
+        imagemUrl: "/img/Zorro.jpg",
+        especie: "gato",
+        idade: "3 anos",
+        descricao: "Turminha linda, sou um gatinho desconfiado e que aceito carinho na cabeça e nas costas, mas só de quem conheço. Não gosto de colo e prefiro ficar mais na minha. Que tal ter a minha companhia ao seu ladinho no sofá?",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277115",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Tyson",
+        imagemUrl: "/img/Tyson(1).jpg",
+        especie: "gato",
+        idade: "4 anos",
+        descricao: "Oi tios. Sou um gatinho muito especial e preciso de uma família especial também. Uma família que respeite minha personalidade e meu tempo. Sou assim, digamos, arisco e medroso, por isso não gosto de interagir, mas tenho certeza que sei dar muito amor e carinho, só que da minha maneira. Que tal me dar uma chance?",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277115",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Paulinho",
+        imagemUrl: "/img/Paulinho .jpg",
+        especie: "gato",
+        idade: "12 anos",
+        descricao: "Oi pessoal, tive que ser operado às pressas quando cheguei aqui porque estava com meu diafragma rompido e não conseguia respirar. As tias não sabem ao certo o que ocorreu pra eu ter isso, mas certamente um trauma, comum em quem vivia nas ruas como eu. Hoje estou ótimo, sou muito carinhoso e comilão! As tias daqui descobriram que tenho SOP (Síndrome Obstrutiva Pulmonar), mas isso é controlado com medicamento e acompanhamento de médico veterinário. Vem me conhecer e quem sabe eu ganho uma família?",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277115",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Tarzan",
+        imagemUrl: "/img/Tarzan.jpg",
+        especie: "gato",
+        idade: "6 anos",
+        descricao: "Eu sou o Tarzan, sou forte e muito brincalhão. Sou praticamente um bebezão com carinha de Siamês! Tenho energia de sobra para correr, pular e brincar. Gosto muito de outros gatinhos, mas sou um pouco tímido com humanos, principalmente quando me pegam no colo, então preciso que você tenha um pouquinho de paciência comigo, para que a gente se conheça melhor. Preciso ser conquistado!",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277115",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Charles",
+        imagemUrl: "/img/Charles(2).jpg",
+        especie: "gato",
+        idade: "7 anos",
+        descricao: "É um gato dócil, ativo e brincalhão. Não gosta de colo e é tímido com outros animais. O ideal é que seu novo lar seja um apartamento bem protegido.",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277115",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Harry",
+        imagemUrl: "/img/Harry.jpg",
+        especie: "gato",
+        idade: "8 anos",
+        descricao: "Olá, me chamo Harry e fui abandonado por apresentar uma doença chamada esporotricose. Fui tratado e fiquei bem, mas aí as tias daqui descobriram que eu tenho também o vírus da FIV – Aids felina. Fiquei muito triste, sabe? Já seria difícil eu ganhar um lar por ser adulto e ter tido esporotricose, aí ainda descobrem a presença desse vírus no meu corpinho... as tias daqui me incentivam, dizem que eu sou muito lindo e carinhoso, e tenho boa saúde, portanto, tenho chances de ganhar um lar. Vou torcer pra dar certo, gosto daqui, mas queria tanto ter uma família só minha. Não gosto muito de outros gatos.",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/277115",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+    {
+        nome: "Ângela",
+        imagemUrl: "/img/Angela1.jpeg",
+        especie: "gato",
+        idade: "6 meses",
+        descricao: "Titios, cheguei aqui com meus irmãos, mas todos já ganharam uma família e eu acabei sobrando. Sou dócil, carinhosa, linda e adoro brincar.Que tal me deixar fazer parte da sua família, com muito amor e responsabilidade?",
+        linkAdocao: "https://capital.sp.gov.br/web/saude/w/saude_e_protecao_ao_animal_domestico/297760",
+        tags: "gato gatinho felino cat felpudo miau adotar pet vira-lata rua companheiro amigo felino adoção melhor amigo"
+    },
+
     //cachorros
     {
         nome: "Raissa",
@@ -174,7 +436,7 @@ let dados = [
     },
     {
         nome: "Zezinho",
-        imagemUrl: "/img/Zezinho3.jpeg",
+        imagemUrl: "/img/Zezinho3.jpg",
         especie: "cão",
         idade: "10 anos",
         descricao: "Titios, sou um senhorzinho muito carente. Gosto de carinho e de fazer companhia, mas confesso que preciso conhecer antes de confiar totalmente. Sonho com uma família que me entenda e me mostre o que é ser feliz. ",

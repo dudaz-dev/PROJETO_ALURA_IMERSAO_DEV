@@ -42,9 +42,6 @@ Quinta-feira, 8 de Agosto de 2024 | Horário: 10:38 | © COPYRIGHT 2024, Prefeit
 - **Mágica acontece**: A aplicação vasculha um banco de dados gigante (que está no arquivo dados.js) e procura por tudo que tenha a ver com o que você digitou.
 - **Resultados na tela**: Se a aplicação encontrar algo, ela mostra pra você um card com os dados do animal, uma breve descrição e um botão para saber mais.
 
-## Deploy
-- **Confira** esse é o link do meu [DEPLOY](https://projeto-alura-imersao-dev-8dm9.vercel.app/).
-
 ## 🛠️ Responsabilidades
 
 - **Desenvolvimento e Manutenção**: Como desenvolvedora, sou responsável por garantir o bom funcionamento, mantendo as informações atualizadas e implementando melhorias conforme necessário.
@@ -58,6 +55,9 @@ O **Adote um Amigo** foi desenvolvido com o propósito de contribuir para a caus
 ## 🏆 Competição
 
 Este projeto foi desenvolvido com ❤️ por **Maria Eduarda** com o objetivo de conquistar o primeiro lugar nessa competição de desenvolvimento.
+
+## Deploy
+- **Confira** esse é o link do meu [DEPLOY](https://projeto-alura-imersao-dev-8dm9.vercel.app/).
 
 ## License
 

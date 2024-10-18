@@ -57,7 +57,7 @@ O **Adote um Amigo** foi desenvolvido com o propósito de contribuir para a caus
 Este projeto foi desenvolvido com ❤️ por **Maria Eduarda** com o objetivo de conquistar o primeiro lugar nessa competição de desenvolvimento.
 
 ## Deploy
-**Confira** esse é o link do meu [DEPLOY](https://projeto-alura-imersao-dev-8dm9.vercel.app/).
+**Confira** esse é o link do meu [DEPLOY](https://projeto-alura-imersao-dev.vercel.app/).
 
 ## License
 
